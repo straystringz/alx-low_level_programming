@@ -1,16 +1,11 @@
-#include <stdio.h>
-
+#include	<stdio.h>
 /**
- * I don't know why they want main here
+ * main - outputs a text
  *
- * This return no be my mind sha
- * 
- * main - wetin main do?
- * 
- * return: the change you dey owe me
+ * Return: brings return
  */
-int main(void)
+int	main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+	return (0)
 }
