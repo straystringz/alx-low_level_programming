@@ -4,7 +4,7 @@
  * main serves as the entry point
  *
  * Return: should return 1
- * short -wetin I wan write here now?
+ * short: -wetin I wan write here now?
  */
 int	main(void)
 {
