@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - the main function
  *
  *
@@ -12,10 +11,8 @@
  *
  */
 
-int main(void)
-
+int	main(void)
 {
-
 	char	c;
 
 
