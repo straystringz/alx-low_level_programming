@@ -3,7 +3,6 @@
 
 
 /**
- *
  * main - the function
  *
  * Return: if correct should return(0)
