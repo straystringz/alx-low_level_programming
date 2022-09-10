@@ -13,7 +13,7 @@ int main(void)
 
 {
 
-	int	i,	p;
+	int i, p;
 
 	for (i = 0; i < 100; i++)
 
