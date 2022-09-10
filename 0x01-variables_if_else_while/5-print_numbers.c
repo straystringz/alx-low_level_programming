@@ -3,16 +3,13 @@
 
 
 /**
- *
  * main - this is the function
- *
- *
  *
  * Return: returns (0) if correct
  *
- * */
+ */
 
-int main(void)
+int	main(void)
 
 {
 
