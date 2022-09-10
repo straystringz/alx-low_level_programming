@@ -23,7 +23,7 @@ int	main(void)
 
 	{
 
-		for (p = 0; p < 100; j++)
+		for (p = 0; p < 100; i++)
 
 		{
 
