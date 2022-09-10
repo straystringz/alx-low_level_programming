@@ -1,29 +1,25 @@
 #include	<stdio.h>
 
 /**
- * main - this function will print possible combination of two 2-digit
+ * main - this function prints possible combination of two 2-digit
  *
  * numbers
  *
- * Return: returns zero at the end if correct
+ * Return: returns zero at the end
  *
  */
 
-int	main(void)
+int main(void)
 
 {
 
-
-
 	int	i,	p;
-
-
 
 	for (i = 0; i < 100; i++)
 
 	{
 
-		for (p = 0; p < 100; i++)
+		for (p = 0; p < 100; j++)
 
 		{
 
