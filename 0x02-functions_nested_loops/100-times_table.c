@@ -1,22 +1,36 @@
+#include "main.h"
+#include "6-abs.c"
 #include <stdio.h>
+
 /**
- * main - main function
- *
- * Return: always 0
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: input number to check
+ * Return: nothing
  */
-int main(void)
+void print_to_98(int n)
 {
-	int a;
-	int b = 0;
+	int i;
 
-	for (a = 0; a < 1024; a++)
+	if (n > 98)
 	{
-		if (a % 3 == 0 || a % 5 == 0)
+		for (i = n; i >= 98; i--)
 		{
-			b += a;
+			printf("%d", i);
+			if (i != 98)
+			{
+				printf(", ");
+			}
 		}
-
+	} else
+	{
+		for (i = n; i <= 98; i++)
+		{
+			printf("%d", i);
+			if (i != 98)
+			{
+				printf(", ");
+			}
+		}
 	}
-	printf("%d\n", b);
-	return (0);
+	printf("\n");
 }
