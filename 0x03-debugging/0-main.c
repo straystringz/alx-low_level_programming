@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - prints integer or a negative integer
- *
- * Return: 0
- *
- */
+* main - prints integer or a negative integer
+*
+* Return: 0
+*
+*/
 
-int main(void)
+	int main(void)
 
 {
 	int i;
