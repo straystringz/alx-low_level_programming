@@ -2,7 +2,8 @@
 
 /**
 * main - prints integer or a negative integer
-* Return: (0)
+* 
+* Return: always 0
 *
 */
 
