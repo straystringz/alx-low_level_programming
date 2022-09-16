@@ -14,6 +14,10 @@ int main(void)
 printf("Infinite loop incoming :(\n");
 i = 0;
 
+/**
+ * this is where we print it
+ */
+
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
