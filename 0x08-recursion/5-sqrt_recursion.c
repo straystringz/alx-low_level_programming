@@ -29,6 +29,12 @@ return (-1);
 
 }
 
+/**
+ *_sqrt_recursion - evaluate the  square root
+ * @n: interger
+ * Return: Success returns Sqrt_recursion
+ */
+
 int _sqrt_recursion(int n)
 
 {
