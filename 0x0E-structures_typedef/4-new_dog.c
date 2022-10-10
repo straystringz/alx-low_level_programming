@@ -29,7 +29,6 @@ char *_strdup(char *str)
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
