@@ -7,6 +7,7 @@
  * @h: a pointer to the list to iterato to.
  * Return: the number of nodes
  */
+
 size_t print_list(const list_t *h)
 {
 	const list_t *tmp;
