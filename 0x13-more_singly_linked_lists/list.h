@@ -1,17 +1,16 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*
-* Desc: Header file containing prototypes and definitions for all functions
-*/
 #include <stdlib.h>
 
 /**
-* struct listint_s - singly linked list
-* @n: an integer
-* @next: points to the next node
-* Description: singly linked list node structure
-*/
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
+ */
 typedef struct listint_s
 {
 	int n;
