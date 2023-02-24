@@ -25,4 +25,5 @@ fclean:
 	$(RM) *~ *.swp *.swo *.bak *.exe $(OBJ)
 
 re:
-	touch $(SRC) make
+	touch $(SRC)
+	make all
