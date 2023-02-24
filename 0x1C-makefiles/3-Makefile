@@ -16,12 +16,11 @@ all: $(OBJ)
 	$(CC) -g $(OBJ) -o $(NAME)
 
 clean:
-	$(RM) *~ *.swp *.swo *.bak *.exe
+	$(RM) *~ $(NAME)
 
 oclean:
 	$(RM) $(OBJ)
 
-fclean:
-	$(RM) *~ *.swp *.swo *.bak *.exe $(OBJ)
+fclean: clean oclean
 
 re: oclean all
