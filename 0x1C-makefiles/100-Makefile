@@ -16,7 +16,7 @@ NAME = school
 # CFLAGS: your favorite compiler flags: -Wall -Werror -Wextra -pedantic
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-all: $(OBJ)
+all: m.h $(OBJ)
 	$(CC) -g $(OBJ) -o $(NAME)
 
 .PHONY: clean oclean fclean re
