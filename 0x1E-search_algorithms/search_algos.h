@@ -36,7 +36,7 @@ typedef struct skiplist_s
 /* Functions */
 
 /**
- * linear_search - searches for a value in an array of integers using linear search
+ * linear_search - searches for a value in an array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -46,7 +46,7 @@ typedef struct skiplist_s
 int linear_search(int *array, size_t size, int value);
 
 /**
- * binary_search - searches for a value in a sorted array of integers using binary search
+ * binary_search - searches for a value in a sorted array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -56,7 +56,7 @@ int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 
 /**
- * jump_search - searches for a value in a sorted array of integers using jump search
+ * jump_search - searches for a value in a sorted array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -66,7 +66,7 @@ int binary_search(int *array, size_t size, int value);
 int jump_search(int *array, size_t size, int value);
 
 /**
- * interpolation_search - searches for a value in a sorted array of integers using interpolation search
+ * interpolation_search - searches for a value in a sorted array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -76,7 +76,7 @@ int jump_search(int *array, size_t size, int value);
 int interpolation_search(int *array, size_t size, int value);
 
 /**
- * exponential_search - searches for a value in a sorted array of integers using exponential search
+ * exponential_search - searches for a value in a sorted array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -86,7 +86,7 @@ int interpolation_search(int *array, size_t size, int value);
 int exponential_search(int *array, size_t size, int value);
 
 /**
- * advanced_binary - searches for a value in a sorted array of integers using advanced binary search
+ * advanced_binary - searches for a value in a sorted array of integers
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
@@ -96,5 +96,5 @@ int exponential_search(int *array, size_t size, int value);
 int advanced_binary(int *array, size_t size, int value);
 
 /**
- * jump_list - searches for a value in a singly linked list of integers using jump search
+ * jump_list - searches for a value in a singly linked list of ints
  * @list:
