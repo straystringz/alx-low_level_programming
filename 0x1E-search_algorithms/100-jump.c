@@ -12,32 +12,28 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-    int jump = sqrt(size);  /* Calculate the block size to be jumped. */
-    int left = 0;           /* Initialize the left and right boundaries of the block. */
+    int jump = sqrt(size);
+    int left = 0;
     int right = 0;
 
-    /* If array is NULL or size is 0, return -1. */
     if (array == NULL || size == 0)
         return (-1);
 
-    /* Jump through the array until a block containing the value is found or the end of the array is reached. */
     while (right < (int)size && array[right] < value) {
         printf("Value checked array[%d] = [%d]\n", right, array[right]);
-        left = right;       /* Save the index of the start of the previous block. */
-        right += jump;      /* Jump to the start of the next block. */
+        left = right;
+        right += jump;
     }
 
-    /* If the value is not in the array, return -1. */
-    if (left >= (int)size || array[left] > value)
-        return (-1);
+    printf("Value found between indexes [%d] and [%d]\n", left, right);
 
-    /* Linear search within the block containing the value. */
-    right = MIN(right, size - 1);    /* Set the right boundary of the block. */
+    right = MIN(right, size - 1);
+
     for (; left <= right; left++) {
         printf("Value checked array[%d] = [%d]\n", left, array[left]);
         if (array[left] == value)
-            return (left);  /* If the value is found, return the index. */
+            return (left);
     }
 
-    return (-1);    /* If the value is not found, return -1. */
+    return (-1);
 }
