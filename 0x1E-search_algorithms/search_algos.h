@@ -14,8 +14,8 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 /**
@@ -28,9 +28,9 @@ typedef struct listint_s
  */
 typedef struct skiplist_s
 {
-    int n;
-    struct skiplist_s *express;
-    struct skiplist_s *next;
+	int n;
+	struct skiplist_s *express;
+	struct skiplist_s *next;
 } skiplist_t;
 
 /* Functions */
